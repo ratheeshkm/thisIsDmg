@@ -1,0 +1,293 @@
+.recomented-title {
+  margin: 25px 0px 15px 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  font-family: calbri;
+}
+
+.filter {
+  border: solid 1px black;
+  border-radius: 25px;
+  padding: 8px 20px;
+  color: black;
+  margin: 0px 5px;
+}
+
+.filter-title {
+  display: inline-block;
+}
+
+.sort {
+  text-align: end;
+}
+
+.cancelIcon {
+  font-size: 18px;
+}
+
+.ant-select-selector {
+  text-align: left;
+  background: transparent;
+  border-radius: 20px !important;
+  border: solid 1px black !important;
+  width: 120px !important;
+  background-color: #e0e0e0 !important;
+  height: 37px !important;
+}
+
+.ant-select-arrow {
+  color: black;
+}
+
+.hr {
+  margin-top: 15px;
+  color: black;
+  height: 3px;
+  background-color: black;
+}
+
+.site-card-wrapper {
+  color: black;
+  position: relative;
+  margin: 20px 0px 0px 0px;
+}
+
+.site-card-wrapper .tag {
+  width: 160px;
+  text-align: center;
+  background-color: #ffa500;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  left: -1px;
+}
+
+/* Best seller CSS */
+.best-seller {
+  position: relative;
+}
+
+.best-seller > .wheel {
+  position: absolute;
+  width: 125px;
+  top: 25px;
+  left: -25px;
+}
+
+.best-seller > .adv {
+  position: absolute;
+  width: 40px;
+  top: 10px;
+  left: 70px;
+}
+/* Best seller CSS */
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.approved > img {
+  width: 80px;
+}
+
+.total {
+  width: 100px;
+}
+
+.total > .total-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Input add minus button css */
+input,
+textarea {
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type='button'] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+}
+
+.input-group input[type='button'] {
+  background-color: #ffffff;
+  min-width: 45px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 40px;
+  padding: 0;
+  width: 45px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 40px;
+  left: -6px;
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+  background-color: #e0e0e0;
+}
+
+.button-plus {
+  left: -13px;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+
+/* Input add minus button css */
+.addtocart {
+  text-align: center;
+}
+.addtocart .ant-btn-lg {
+  background-color: #ffa500;
+  border-color: #ffa500;
+  color: #000000;
+}
+
+.addtocart .ant-btn img {
+  float: left;
+  width: 35px;
+}
+
+.addtocart .ant-btn-lg > span {
+  float: left;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.notify > .ant-btn {
+  border: solid 1px red;
+  background-color: #ffffff;
+}
+
+.notify > .ant-btn img {
+  width: 22px;
+}
+
+.productListTile {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.product-list {
+  margin: 15px 0px;
+}
+.product-list .ant-row {
+  padding: 0px 15px;
+}
+.product-list .title,
+.product-list .approved,
+.product-list .modal-text,
+.product-list .stock,
+.product-list .price,
+.product-list .total {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: #000000;
+}
+
+.prod-list-text {
+  width: 100px !important;
+  text-align: left;
+}
+
+.prod-list-total {
+  width: 100%;
+}
+
+.load-more {
+  width: 100%;
+  height: 50px;
+  border: solid 1px black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .site-card-wrapper .ant-row {
+    padding: 0px;
+  }
+
+  .best-seller > .wheel {
+    width: 100px;
+  }
+
+  .best-seller > .adv {
+    left: 45px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .input-group input[type='button'] {
+    min-width: 35px;
+  }
+
+  .product-list .title,
+  .product-list .approved,
+  .product-list .modal-text,
+  .product-list .stock,
+  .product-list .price,
+  .product-list .total {
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+    width: 100%;
+    color: #000000;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .product-list .ant-card-body {
+    padding: 15px 0px;
+  }
+}
